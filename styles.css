@@ -417,3 +417,27 @@ footer {
     border-radius: 8px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+#education {
+    background-color: #f9fafb; /* Color de fondo */
+    padding: 40px 0; /* Espaciado superior e inferior */
+}
+
+.education-item {
+    border-bottom: 1px solid #e2e8f0; /* Línea separadora */
+    padding: 15px 0; /* Espaciado superior e inferior en cada ítem */
+    text-align: center; /* Centrar el texto */
+}
+
+.education-item:last-child {
+    border-bottom: none; /* Eliminar la línea del último ítem */
+}
+
+.education-item h4 {
+    font-weight: 600; /* Peso de la fuente */
+    margin: 0; /* Eliminar márgenes predeterminados */
+}
+
+.education-item p {
+    margin: 5px 0 0; /* Espaciado entre los párrafos */
+    color: #4a5568; /* Color gris oscuro */
+}
